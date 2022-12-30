@@ -17,14 +17,7 @@ spec:
       containers:
       - image: tanquyvt/reverseproxy:v1
         name: reverseproxy
-        imagePullPolicy: Always          
-        # resources:
-        #   requests:
-        #     memory: "64Mi"
-        #     cpu: "250m"
-        #   limits:
-        #     memory: "1024Mi"
-        #     cpu: "500m"       
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
       restartPolicy: Always
