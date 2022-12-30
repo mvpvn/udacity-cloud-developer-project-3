@@ -1,6 +1,6 @@
 # Udagram Image Filtering Application
 
-Public frontend URL: [aa143179dd1aa4d18a19ea127b1d8f63-2081515219.ap-southeast-1.elb.amazonaws.com](aa143179dd1aa4d18a19ea127b1d8f63-2081515219.ap-southeast-1.elb.amazonaws.com)
+Public frontend URL: [aa143179dd1aa4d18a19ea127b1d8f63-2081515219.ap-southeast-1.elb.amazonaws.com](http://aa143179dd1aa4d18a19ea127b1d8f63-2081515219.ap-southeast-1.elb.amazonaws.com/)
 
 ## Getting started 
 
