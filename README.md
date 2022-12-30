@@ -5,11 +5,11 @@
 ### Prerequisite
 1. Environment
 
-`kubectl apply -f aws-secret.yaml`
+`kubectl apply -f k8s/aws-secret.yaml`
 
-`kubectl apply -f env-secret.yaml`
+`kubectl apply -f k8s/env-secret.yaml`
 
-`kubectl apply -f env-configmap.yaml`
+`kubectl apply -f k8s/env-configmap.yaml`
 
 2. Network
 
