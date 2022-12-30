@@ -23,12 +23,28 @@
 
 `sh aws/create-s3.sh`
 
-### 3. Backend API
+### 3. EKS
 
-`kubectl apply -f backend-feed-deployment.yaml`
+`sh aws/create-eks.sh`
 
-`kubectl apply -f backend-feed-service.yaml`
+### 4. Backend API
 
-### 4. Frontend App
+`kubectl apply -f k8s/backend-feed-deployment.yaml`
 
-## Tips
+`kubectl apply -f k8s/backend-feed-service.yaml`
+
+`kubectl apply -f k8s/backend-user-deployment.yaml`
+
+`kubectl apply -f k8s/backend-user-service.yaml`
+
+### 4. Reverse proxy
+
+`kubectl apply -f k8s/reverseproxy-deployment.yaml`
+
+`kubectl apply -f k8s/reverseproxy-service.yaml`
+
+### 5. Frontend App
+
+`kubectl apply -f k8s/frontend-deployment.yaml`
+
+`kubectl apply -f k8s/frontend-service.yaml`
